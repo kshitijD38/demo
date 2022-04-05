@@ -10,7 +10,7 @@ function ListCallInfo(props) {
       headers: { "Content-Type": "application/json" },
     };
     console.log(" req: ", requestOptions);
-    fetch("http://192.168.1.7:9090/list/callInfo", requestOptions)
+    fetch("https://192.168.1.7:9090/list/callInfo", requestOptions)
       .then((response) => response.json())
       .then((data) => setRecords(data));
   }, []);
