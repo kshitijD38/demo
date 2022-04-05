@@ -1,0 +1,28 @@
+.list-call-info {
+  color: white;
+  background-color: #4db6ac;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  margin-left: 550px;
+  margin-right: 550px;
+  border-radius: 25px;
+  flex-direction: column;
+}
+
+.hr{
+    border-top: 1px solid white;
+}
+
+.call-info-items {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.call-info-item {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: 150px;
+}

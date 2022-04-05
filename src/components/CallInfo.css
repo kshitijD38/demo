@@ -1,0 +1,77 @@
+input,
+textarea,
+select {
+  width: 250px;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+input,
+select,
+textarea,
+button {
+  font-family: inherit;
+  font-size: 100%;
+}
+form {
+  margin-top: 300px;
+  position: relative;
+  width: 740px;
+  /* height : 498px; */
+  margin: 0 auto;
+  padding: 1em;
+  box-sizing: border-box;
+
+  /* we create our grid */
+  display: flex;
+  flex-direction: column;
+  /* display: grid; */
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  /* grid-template-rows    : 1em 1em 1em 1em; */
+}
+
+button {
+  background-color: #4db6ac;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.div-rest {
+  margin-top: 10px;
+}
+
+.rest {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.productsubmit {
+  display: grid;
+  grid-gap: 10px;
+}
+
+.product-input {
+  width: 600px;
+}
+
+input {
+  left: 10px;
+  height: 25px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 2px;
+  align-content: space-around;
+}
+
+input:focus {
+  outline: none !important;
+  border: 1px solid blue;
+}
+
+.product-button {
+  width: 100px;
+  height: 25px;
+  cursor: pointer;
+}
