@@ -10,7 +10,7 @@ function ListCallInfo(props) {
       headers: { "Content-Type": "application/json" },
     };
     console.log(" req: ", requestOptions);
-    fetch("https://34.214.61.86:5004/list/call/info", requestOptions)
+    fetch("http://34.214.61.86:5004/list/call/info", requestOptions)
       .then((response) => response.json())
       .then((data) => setRecords(data));
   }, []);
