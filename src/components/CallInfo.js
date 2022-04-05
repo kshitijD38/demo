@@ -26,7 +26,7 @@ function CallInfo(props) {
       body: JSON.stringify(callInfo),
     };
     console.log(" req: ", requestOptions);
-    fetch("http://192.168.1.7:9090/add/callInfo", requestOptions)
+    fetch("http://34.214.61.86:5004/add/call/info", requestOptions)
       .then((response) => response.json())
       .then((data) => console.log(data));
 
